@@ -6,7 +6,7 @@ class SampleTest extends TestCase {
         $this->assertEquals(4, 2 + 2);
     }
 
-    public function testFailingExample() {
-        $this->assertTrue(true); // Change to false to see failure
+    public function testAnotherExample() {
+        $this->assertTrue(true);
     }
 }
