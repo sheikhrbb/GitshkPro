@@ -20,5 +20,8 @@ jobs:
       - name: Install dependencies
         run: composer install
 
+      - name: Make PHPUnit executable
+        run: chmod +x vendor/bin/phpunit
+
       - name: Run PHPUnit tests
         run: vendor/bin/phpunit --testdox
